@@ -1,0 +1,8 @@
+# อนุญาตให้เข้าถึงไฟล์ในโฟลเดอร์นี้
+Options +Indexes
+Require all granted
+
+# รองรับ CORS (ถ้าใช้งานกับ Frontend ต่างโดเมน)
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+Header set Access-Control-Allow-Headers "Content-Type, Authorization"
